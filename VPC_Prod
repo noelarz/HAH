@@ -5,15 +5,15 @@
 # /24 = 251 IP's available
 
 ## Public
-#	  10.100.254.0/24 = US-East1A
-#	  10.100.253.0/24 = US-East1B
-#	  10.100.252.0/24 = US-East1C
-#	  10.100.251.0/24 = US-East1D
-#	  10.100.200.0/24 = US-East1E (VPN users)
+#	10.100.254.0/24 = US-East1A
+#	10.100.253.0/24 = US-East1B
+#	10.100.252.0/24 = US-East1C
+#	10.100.251.0/24 = US-East1D
+#	10.100.200.0/24 = US-East1E (VPN users)
 
 ## Private
-#	  10.100.0.0/24 = US-East1A == Public – 10.100.254.0/24 = US-East1A
-#     10.100.16.0/20 = US-East1B == Public – 10.100.253.0/24 = US-East1B
-#     10.100.32.0/20 = US-East1C == Public - 10.100.252.0/24 = US-East1C
-#     10.100.48.0/20 = US-East1D
-#     10.100.64.0/20 = US-East1E
+#	10.100.0.0/24 = US-East1A == Public – 10.100.254.0/24 = US-East1A
+#	10.100.16.0/20 = US-East1B == Public – 10.100.253.0/24 = US-East1B
+#	10.100.32.0/20 = US-East1C == Public - 10.100.252.0/24 = US-East1C
+#	10.100.48.0/20 = US-East1D
+#	10.100.64.0/20 = US-East1E
