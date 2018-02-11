@@ -5,7 +5,6 @@
       "Type" : "AWS::AutoScaling::LaunchConfiguration",
       "Metadata" : {
         "Comment1" : "Configure the bootstrap helpers to install the Apache Web Server and PHP",
-        "Comment2" : "The website content is downloaded from the CloudFormationPHPSample.zip file",
 
         "AWS::CloudFormation::Init" : {
           "config" : {
@@ -22,11 +21,11 @@
                 "content" : { "Fn::Join" : [ "", [
                   "<html>\n",
                   "  <head>\n",
-                  "    <title>AWS CloudFormation PHP Sample</title>\n",
+                  "    <title>AWS CloudFormation PHP</title>\n",
                   "    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\">\n",
                   "  </head>\n",
                   "  <body>\n",
-                  "    <h1>Welcome to the AWS CloudFormation PHP Sample</h1>\n",
+                  "    <h1>Welcome to the AWS CloudFormation PHP</h1>\n",
                   "    <p/>\n",
                   "    <?php\n",
                   "      // Print out the current data and tie\n",
