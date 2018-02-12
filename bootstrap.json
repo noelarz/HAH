@@ -1,5 +1,5 @@
   {
-  "AWSTemplateFormatVersion" : "2018-02-14",
+  "AWSTemplateFormatVersion" : "2018-02-12",
 
   "LaunchConfig": {
       "Type" : "AWS::AutoScaling::LaunchConfiguration",
