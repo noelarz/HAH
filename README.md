@@ -17,4 +17,4 @@ This file provides the configuration for cloudformation to provision Hotels At H
 
 
 ### bootstrap.json
-This file contains the configurations to bootstrap helpers to install the Apache Web Server and PHP
+This file contains the configurations to bootstrap helpers to install the Apache Web Server and PHP.

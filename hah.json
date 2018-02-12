@@ -1,5 +1,5 @@
 {
-  "AWSTemplateFormatVersion" : "2018-02-14",
+  "AWSTemplateFormatVersion" : "2018-02-12",
 
   "Description" : "Hotels_at_home stack: Multi_AZ, Amazon RDS, Apache web server and PHP.",
 
@@ -86,20 +86,8 @@
       "MinLength": "9",
       "MaxLength": "18",
       "Default": "0.0.0.0/0",
-      "AllowedPattern": "(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})/(\\d{1,2})",
       "ConstraintDescription": "must be a valid IP CIDR range of the form x.x.x.x/x."
     }
-  },
-
-  "Mappings" : {
-    "AWSInstanceType2Arch" : {
-      "t2.medium"   : { "Arch" : "HVM64"  },
-    }
-,
-    "AWSRegionArch2AMI" : {
-      "us-east-1"        : {"PV64" : "ami-2a69aa47", "HVM64" : "ami-6869aa05", "HVMG2" : "ami-3353c649"},
-    }
-
   },
 
   "Resources" : {
