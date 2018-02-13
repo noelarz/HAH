@@ -1,0 +1,13 @@
+## Purpose of this script is to install NFS, to replicate an AWS EFS environment. 
+
+apt-get install nfs-common
+mkdir /data
+chmod 777 /data
+
+   --- FOR TESTING ONLY 
+                mount -t nfs -o proto=tcp,port=2049 10.101.xx.xxx:/data /data
+                ls -l /data
+   ---
+
+echo "10.101.xx.xxx:/data    /data    nfs4    rw,relatime,vers=4.0,rsize=524288,wsize=524288,namlen=255,hard,proto=tcp,port=0,timeo=600,retrans=2,sec=sys,clientaddr=10.101.xx.xxx,local_lock=none,addr=10.101.xx.xxx 0 0" >> /etc/fstab
+mount /data
