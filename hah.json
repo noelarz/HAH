@@ -1,18 +1,18 @@
 {
   "AWSTemplateFormatVersion" : "2018-02-12",
 
-  "Description" : "Hotels_at_home stack: Multi_AZ, Amazon RDS, Apache web server and PHP.",
+  "Description" : "HAH stack: Multi_AZ, Amazon RDS, Apache web server and PHP.",
 
   "Parameters" : {
     "VpcId" : {
       "Type" : "AWS::EC2::VPC::Id",
-      "Description" : "VPC ID of Hotels_at_Home",
+      "Description" : "VPC ID of HAH",
     },
 
     "Subnets" : {
       "Type" : "List<AWS::EC2::Subnet::Id>",
       "Description" : "The list of SubnetIds in your Virtual Private Cloud (VPC)",
-      "ConstraintDescription" : "must be a list of at least two existing subnets associated with at least two different availability zones, inside of Hotels_at_Home VPC"
+      "ConstraintDescription" : "must be a list of at least two existing subnets associated with at least two different availability zones, inside of HAH VPC"
     },
 
     "KeyName": {
