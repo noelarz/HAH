@@ -20,16 +20,17 @@
 #	10.100.500.0/24 = US-East1E
 
 ## SG defined
-# Inbound UTM VPN Traffice
+# Inbound UTM VPN Traffice 
 # Open to Offices (corporate) and other VPC's
 # Normal Server - Just SSH (all Private subnets)
 # ALB 
 
-## NJ Corporate Office defined
-#
-#
-#
-#
-#
-#
-#
+## NJ Corporate Office CDIR Block - 10.3.0.0/16
+# 10.3.0.0/24 = Corporate VLAN 300 – asigned IP 10.3.0.1
+# 10.3.1.0/24 = Spare = VLAN 301 – assigned IP - 10.3.1.1
+# 10.3.2.0/24 = Management = VLAN 302 – assigned IP 10.3.2.1
+# 10.3.3.0/24 = IT Admin/VPN Access= VLAN 303 – assigned IP 10.3.3.1
+# 10.3.4.0/24 = Wireless = VLAN 304 – assigned IP 10.3.4.1
+# 10.3.5.0/24 = Wired = VLAN 305 – assigned IP 10.3.5.1
+# 10.3.6.0/24 = Spare = VLAN 306 – assigned IP - 10.3.6.1
+# 10.3.7.0/24 = Guest = VLAN 307 – assigned IP 10.3.7.1
