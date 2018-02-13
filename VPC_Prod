@@ -5,21 +5,25 @@
 
 ## /24 = 251 IP's available
 
-## Public
+## Public_subnets
 #	10.100.254.0/24 = US-East1A
 #	10.100.253.0/24 = US-East1B
 #	10.100.252.0/24 = US-East1C
 #	10.100.251.0/24 = US-East1D
 #	10.100.200.0/24 = US-East1E (for UTM/VPN users) 
 
-## Private
+## Private_subnets 
 #	10.100.100.0/24 = US-East1A
 #	10.100.200.0/24 = US-East1B
 #	10.100.300.0/24 = US-East1C
 #	10.100.400.0/24 = US-East1D
 #	10.100.500.0/24 = US-East1E
 
-## SG defined
+## ALB with Target Groups to routing to Private_subnets
+## UTM device assigned to Public_subnets, for SSH access.
+## OpenVPN
+
+## Security_groups
 # Inbound UTM VPN Traffice 
 # Open to Offices (corporate) and other VPC's
 # Normal Server - Just SSH (all Private subnets)
