@@ -1,4 +1,4 @@
-# Purpose of this project is to architect an AWS infrastruture for HotelsAtHome Production environment. 
+## Purpose of this project is to architect an AWS infrastruture for HotelsAtHome Production environment. 
 
 ## Prerequesites
 - Design Production VPC
