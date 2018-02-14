@@ -2,5 +2,5 @@
 
 #  -Create RDS instance in a multiple AZ deployment for high availablity and with Provisioned IOPS Storage for fast consistent performance.
 #  -Disable write access to the application so that the original and new databases stay in sync. (maintenance mode)
-#  -Export app DB (mysqldump -u root -p hotelsathome_mysql > backup.sql) 
+#  -Export app DB (mysqldump -u root -p hah_mysql > backup.sql) 
 #  -Import app DB to RDS database instance (mysql -u "RDS_instance_USERNAME" -p -h "RDS-ENDPOINT" -D RDS_DB_name < backup.sql)
