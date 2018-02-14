@@ -1,4 +1,4 @@
-## Purpose of this project is to migrate mysql database over to an AWS RDS instance for HotelsAtHome Production environment. 
+## Purpose of this project is to migrate mysql database over to an AWS RDS instance for HAH prod_corp environment. 
 
 #  -Create RDS instance in a multiple AZ deployment for high availablity and with Provisioned IOPS Storage for fast consistent performance.
 #  -Disable write access to the application so that the original and new databases stay in sync. (maintenance mode)
